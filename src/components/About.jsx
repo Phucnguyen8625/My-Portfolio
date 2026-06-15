@@ -5,6 +5,9 @@ const About = () => {
     { name: 'JavaScript / TypeScript', level: 85, color: 'bg-yellow-400' },
     { name: 'React / React Native', level: 80, color: 'bg-cyan-400' },
     { name: 'PHP / Laravel', level: 85, color: 'bg-indigo-500' },
+    { name: 'C# / .NET', level: 80, color: 'bg-purple-600' },
+    { name: 'C++', level: 75, color: 'bg-blue-600' },
+    { name: 'Java', level: 80, color: 'bg-orange-500' },
     { name: 'Tailwind CSS / UI', level: 90, color: 'bg-blue-500' },
     { name: 'MySQL / Database', level: 75, color: 'bg-emerald-500' },
     { name: 'Git & GitHub', level: 85, color: 'bg-slate-500' }
