@@ -22,8 +22,8 @@ const Projects = () => {
       title: 'Weather Dashboard',
       description: 'Bảng điều khiển thời tiết sử dụng OpenWeather API để hiển thị dự báo thời tiết cho các thành phố trên thế giới.',
       techs: ['JavaScript', 'API', 'HTML/CSS'],
-      link: '#',
-      github: '#',
+      link: 'https://weather-dashboard-mocha-gamma.vercel.app/',
+      github: 'https://github.com/Phucnguyen8625/Weather-dashboard.git',
       color: 'from-purple-500 to-indigo-500'
     }
   ];
@@ -51,7 +51,7 @@ const Projects = () => {
                 <p className="text-slate-600 text-sm mb-6 line-clamp-3">
                   {project.description}
                 </p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.techs.map((tech, i) => (
                     <span key={i} className="px-3 py-1 bg-slate-100 text-slate-600 text-xs rounded-full border border-slate-200">
